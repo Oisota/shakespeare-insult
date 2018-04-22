@@ -1,5 +1,7 @@
 Shakespearean Insult Generator
 ==============================
+[![Build Status](https://travis-ci.org/Oisota/shakespeare-insult.svg?branch=master)](https://travis-ci.org/Oisota/shakespeare-insult)
+
 Generate insults in the style of Bill Shakespeare.
 
 ```python
