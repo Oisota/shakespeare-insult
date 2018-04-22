@@ -13,6 +13,9 @@ setup(
         long_description=long_description,
         long_description_content_type='text/markdown',
         author='Derek Morey',
+        author_email='derek.o.morey@gmail.com',
+        license='GPL-3.0',
+        url='https://github.com/Oisota/shakespeare-insult',
         classifiers=[
             'Development Status :: 4 - Beta',
             'Intended Audience :: Developers',
