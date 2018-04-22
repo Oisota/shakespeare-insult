@@ -7,7 +7,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-        name='Shakespeare Insult',
+        name='shakespeare-insult',
         version='1.0.0',
         description='Generate insults in the style of Bill Shakespeare',
         long_description=long_description,
