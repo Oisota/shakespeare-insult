@@ -8,6 +8,10 @@ build:
 upload:
 	twine upload dist/*
 
+.PHONY: test
+test:
+	python -m unittest
+
 .PHONY: clean
 clean:
 	$(RM) -r build dist *.egg-info
