@@ -1,0 +1,12 @@
+language: python
+python:
+    - '3.6'
+script: make test
+deploy:
+  provider: pypi
+  distributions: "sdist bdist_wheel"
+  user: oisota
+  password:
+      secure: js5AusIVAjRpzRgDg8Gd93ChLXjwobEfzRLXWSQYiAtNbTjWWj0KLYWGP8JE/p5MysU3rVlSezlUzil9SBmxcfP9txdsm96g4OgnMLVOuF7RRmvetUe4oJKE54Y++YnUTH8Z6+k11gvTmuV7ANgQj9t9q4kJVltBhEy7cMA9xXmfk50PbSu2McEnObkJ15McmBTQQukFkao4a0+yVmL1zdAmExmOjV17UY6JBRZPtcFcbvERqMXfFBc81FvT7FuBczwvB1qE1Ju6Kw9JNSkAa5g0ZZuz5jk28dYHtaDR9L/PletVezt//TC32o9nLi6SF0evqU9nkJBUgnviLGQe7/hi1QfjNw68cRS5iuYiMvmW2OF3VaDNlfx3+hlyIXmSGxiwkG5ZoBy9CZLy4H22v2A14hhffE5EBdKCT+u/KEiVqsR7y4Q0Qf9fwDeQjp7W0K6+MajvBw4y7mfeNW8GNk/cqncJDshpvV3gzGIK6qMYEcUa3hypWrf85UqyJ2WYu0vpEVwNmar7tCBerhVEyPP/eA42Nx5OMASrruuGMT1wOs2aVjruRUPtcVmqXwHzZeLjvJMtTlVs9JvyqVC0S7uBLDVxtNFnVBbxt2h//ZkUsjtMJV9hoDKHW9H/dNf+wpG9w4V+THFQA4lmFXuQ+xK4YrNbTDe90r82MdASuRk=
+  on:
+    tags: true
